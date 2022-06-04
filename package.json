@@ -2,7 +2,6 @@
   "dependencies": {
     "@inertiajs/inertia": "^0.11.0",
     "@inertiajs/inertia-svelte": "^0.8.0",
-    "envinfo": "^7.8.1",
     "svelte": "^3.48.0"
   },
   "devDependencies": {
@@ -13,7 +12,8 @@
   "name": "vite-build-bug",
   "pnpm": {
     "overrides": {
-      "@inertiajs/inertia>axios": "npm:redaxios@latest"
+      "@inertiajs/inertia>axios": "npm:redaxios@latest",
+      "object-inspect": "git://github.com/niczero/object-inspect#e0bb215b068952a8276fc068f97fa435d1ba57ca"
     }
   },
   "private": true,
