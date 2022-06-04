@@ -11,6 +11,11 @@
     "vite": "^2.9.9"
   },
   "name": "vite-build-bug",
+  "pnpm": {
+    "overrides": {
+      "@inertiajs/inertia>axios": "npm:redaxios@latest"
+    }
+  },
   "private": true,
   "scripts": {
     "build": "vite build --debug"

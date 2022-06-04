@@ -3,8 +3,8 @@
 ```
 git clone https://github.com/niczero/vite-plugin-svelte-bug.git
 cd vite-plugin-svelte-bug
-npm install
-npm run build
+pnpm install
+pnpm run build
 ```
 
 Results in the error
@@ -17,11 +17,11 @@ Received '\x00__vite-browser-external?commonjs-proxy'
     at new NodeError (node:internal/errors:372:5)
     at createRequire (node:internal/modules/cjs/loader:1220:13)
     at resolveViaPackageJsonSvelte
-(/home/nicsandfield/.p/proj/js/vite-plugin-svelte-bug/node_modules/@sveltejs/vite-plugin-svelte/dist/index.cjs:1476:59)
+($DIR/vite-plugin-svelte-bug/node_modules/@sveltejs/vite-plugin-svelte/dist/index.cjs:1476:59)
     at Object.resolveId
-(/home/nicsandfield/.p/proj/js/vite-plugin-svelte-bug/node_modules/@sveltejs/vite-plugin-svelte/dist/index.cjs:1728:28)
+($DIR/vite-plugin-svelte-bug/node_modules/@sveltejs/vite-plugin-svelte/dist/index.cjs:1728:28)
     at
-/home/nicsandfield/.p/proj/js/vite-plugin-svelte-bug/node_modules/rollup/dist/shared/rollup.js:22974:37
+$DIR/vite-plugin-svelte-bug/node_modules/rollup/dist/shared/rollup.js:22974:37
 {
   code: 'ERR_INVALID_ARG_VALUE'
 }

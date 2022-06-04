@@ -1,0 +1,16 @@
+*~
+/.*.local
+.DS_Store
+/.vscode/
+/blib
+/dist/
+/local
+/log
+/Makefile
+/Makefile.old
+/MANIFEST*
+!MANIFEST.SKIP
+/META.*
+/MYMETA.*
+/node_modules
+/pm_to_blib
